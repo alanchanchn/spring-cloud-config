@@ -1,1 +1,10 @@
 profile=profile-default
+server:
+  port: 8000
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/alanchanchn/spring-cloud-config.git
+#          file:///D:/workspace/springcloud/config/git/config-server
